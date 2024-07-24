@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.navbar{
+    padding: 10px 0px 10px 100px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.navbar__nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar__nav ul li{
+    padding-right: 40px;
+}
+.button{
+    margin-top: -30px;
+}
+.img{
+    padding-right: 10px;
+}
+
+button{
+    background-color: #43a046;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.full{
+    background-color: #f5f7fa;
+    padding: 0 20px 0px 100px;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.text h1{
+    font-size: 50px;
+}
+.name{
+    color: #28cb8b;
+}
+.text small{
+    color:#717171 ;
+}
+.client {
+    text-align: center;
+    margin-top: 30px;
+}
+.client small{
+    color: #717171;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.manage{
+    text-align: center;
+    margin-top: 40px;
+}
+.manage small{
+    color: #717171;
+}
+.membership{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.membership img{
+    margin-bottom: 30px;
+    background-color: #c8e6c9;
+    border-radius: 0px 0px 10px 0px;
+}
+.membership h2{
+    margin-bottom: 20px;
+}
+.membership small{
+    color: #717171;
+}
